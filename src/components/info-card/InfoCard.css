@@ -1,0 +1,31 @@
+/* InfoCard.css */
+
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    position: absolute; /* Position it on top of the banner */
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the card */
+    width: 80%;
+    margin: 100px auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.section:last-child {
+    border-right: none;
+}

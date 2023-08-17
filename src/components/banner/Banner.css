@@ -1,0 +1,63 @@
+.banner {
+    background: url('../../assets/gold.jpg') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 200px;
+    position: relative;
+}
+
+.banner-text {
+    text-align: left;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+.banner-text h1 {
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.banner-text ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.banner-text li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.banner-text li::before {
+    content: '✓';
+    color: #b99342;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.yellow-button {
+    margin-top: 50px;
+    background-color: #b99342;
+    border: 2px solid white;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.yellow-button:hover {
+    background-color: white;
+    color: #b99342;
+}

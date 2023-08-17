@@ -1,0 +1,10 @@
+body, html {
+  margin: 0;
+  font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
+}

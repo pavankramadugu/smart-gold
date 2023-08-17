@@ -1,0 +1,22 @@
+.ticker-content {
+    display: inline-block;
+    animation: ticker 20s linear infinite;
+}
+
+.ticker-item {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.name, .price, .costChange {
+    margin: 0 5px;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
